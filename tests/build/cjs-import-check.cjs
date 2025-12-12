@@ -11,7 +11,7 @@ try {
     throw new Error('tagSensitiveResource is not exported or not a function');
   }
    
-  console.log('✓ CJS import successful');
+  console.log('CommonJS import check passed, tagSensitiveResource is available.');
   // eslint-disable-next-line no-undef
   process.exit(0);
 } catch (err) {
